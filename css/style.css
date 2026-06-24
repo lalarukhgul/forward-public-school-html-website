@@ -1,0 +1,230 @@
+/* General Styling */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+
+h1 {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin: 0;
+    font-size: 40px;
+}
+
+h2 {
+    color: #003366;
+    border-bottom: 3px solid #003366;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+h3 {
+    color: #0056b3;
+}
+
+/* Navigation Bar */
+
+nav {
+    background-color: #0056b3;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: #003366;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+/* Content Container */
+
+.container {
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Section Cards */
+
+.section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.section:hover {
+    transform: translateY(-3px);
+}
+
+/* Images */
+
+img {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+/* Lists */
+
+ul, ol {
+    padding-left: 30px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Tables */
+
+table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: #003366;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+/* Gallery */
+
+.gallery {
+    text-align: center;
+}
+
+.gallery img {
+    width: 300px;
+    margin: 15px;
+    display: inline-block;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Statistics Section */
+
+.stats {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.stats div {
+    display: inline-block;
+    margin: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Buttons */
+
+.btn {
+    display: inline-block;
+    background-color: #ff9900;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #e68a00;
+}
+
+/* Footer */
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Contact Information */
+
+.contact-info {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Admission Highlights */
+
+.highlight {
+    background-color: #e8f0ff;
+    border-left: 5px solid #0056b3;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+/* Quote Section */
+
+.quote {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    img {
+        width: 95%;
+    }
+
+    .stats div {
+        display: block;
+        margin: 15px 0;
+    }
+
+    table {
+        width: 100%;
+    }
+}
